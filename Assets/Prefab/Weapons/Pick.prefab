@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pick
       objectReference: {fileID: 0}
+    - target: {fileID: 5032169767309034664, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.496
+      objectReference: {fileID: 0}
     - target: {fileID: 5060940894176000299, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Materials.Array.size
       value: 3
@@ -68,33 +72,49 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[2]'
       value: 
       objectReference: {fileID: 2100000, guid: 23618f8f3368c7546a75705a8cb4b076, type: 2}
+    - target: {fileID: 8839374406903594911, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839374406903594911, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839374406903594911, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839374406903594911, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
+      propertyPath: m_Center.y
+      value: -0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Size.x
-      value: 0.10269293
+      value: 0.8668188
       objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Size.y
-      value: 0.870214
+      value: 0.4826069
       objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Size.z
-      value: 0.48264265
+      value: 0.10269047
       objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Center.x
-      value: 0.0000000018626451
+      value: 0.15567636
       objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Center.y
-      value: -0.21396081
+      value: -0.12546873
       objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Center.z
-      value: 0.12712675
+      value: -0.0021582525
       objectReference: {fileID: 0}
     - target: {fileID: 9068658769630340684, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9136715404827183711, guid: 91a8adc06de3ee946ab3b948cc09c78b, type: 3}
       propertyPath: m_Mesh

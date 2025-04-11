@@ -9,9 +9,10 @@ public class AdjustAdditiveClipsPostProcessor : AssetPostprocessor
     const string T_POSE_NAME = "T-Pose";
     const string ADDITIVE_NAME = "Add";
     const string LOOP_NAME = "Loops";
-
+//make sure you have your TPOSE FIRST, so actually name it something like 1.T-Pose
     void OnPostprocessAnimation(GameObject go, AnimationClip clip)
     {
+         Debug.Log($"Importing {clip.name}");
         if (clip.name.Contains(T_POSE_NAME))
         {
             _lastTPoseAssetPath = assetPath;
