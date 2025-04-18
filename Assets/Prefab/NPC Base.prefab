@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3350553642583394580}
   - component: {fileID: 8063529522298205044}
   - component: {fileID: 2210816573069759645}
+  - component: {fileID: 1971589436199910926}
   m_Layer: 8
   m_Name: NPC Base
   m_TagString: Untagged
@@ -108,3 +109,15 @@ MonoBehaviour:
   SoundEffect: {fileID: 0}
   WhatDoTheySay: Wow You Found Me!
   BulkManager: {fileID: 0}
+--- !u!114 &1971589436199910926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6153885227645153564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5eae9639148224fb2009392b5581eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
