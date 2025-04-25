@@ -25,10 +25,10 @@ public class HornFBXHolder : MonoBehaviour
         for (int i = 0; i < meshFilters.Length; i++)
         {
             meshes[i] = meshFilters[i].sharedMesh;
-            Debug.Log($"Found mesh: {meshes[i].name}");
+           // Debug.Log($"Found mesh: {meshes[i].name}");
         }
 
-        Debug.Log($"Total meshes found: {meshes.Length}");
+        Debug.Log($"Total Horn meshes found: {meshes.Length}");
     }
 
     public void ChangeHornType(int Up)

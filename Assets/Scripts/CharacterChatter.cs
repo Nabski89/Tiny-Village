@@ -23,7 +23,7 @@ public class CharacterChatter : MonoBehaviour
                 BulkManager.MainTextReference.TEXTBOX = WhatDoTheySay;
 
                 // Call the NewText method
-                BulkManager.MainTextReference.NewText();
+                BulkManager.MainTextReference.NewChatter();
             }
             else
             {
@@ -39,7 +39,7 @@ public class CharacterChatter : MonoBehaviour
             // Ensure the DialogComponent is assigned
             if (BulkManager.MainTextReference != null)
             {
-                BulkManager.MainTextReference.EndText();
+                BulkManager.MainTextReference.EndChatter();
             }
             else
             {

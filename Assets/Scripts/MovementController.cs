@@ -12,9 +12,14 @@ public class MovementController : MonoBehaviour
 
     private Rigidbody rb;
     private bool isGrounded;
-
+    public BulkManager BulkManager; // Reference to the DialogComponent
     void Start()
     {
+        BulkManager = GetComponentInParent<BulkManager>();
+        if (BulkManager == null)
+        {
+            Debug.LogWarning("Help you didn't put this under the big boy bulk manager");
+        }
         //WARNING TO DO UNLOCK AND UNHIDE THE MOUSE
         Cursor.lockState = CursorLockMode.Locked;
         // Hide the cursor
@@ -55,20 +60,23 @@ public class MovementController : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Handle movement with arrow keys
-        float horizontal = Input.GetAxis("Horizontal"); // Left/right
-        float vertical = Input.GetAxis("Vertical");     // Forward/backward
-
-        if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+        if (BulkManager.MoveLockdown == false)
         {
-            horizontal = horizontal * 1.5f;
-            vertical = vertical * 1.5f;
-        }
-        // Calculate movement direction relative to the player's orientation
-        Vector3 movement = transform.forward * vertical + transform.right * horizontal;
+            // Handle movement with arrow keys
+            float horizontal = Input.GetAxis("Horizontal"); // Left/right
+            float vertical = Input.GetAxis("Vertical");     // Forward/backward
 
-        // Apply movement to the Rigidbody
-        rb.linearVelocity = new Vector3(movement.x * movementSpeed, rb.linearVelocity.y, movement.z * movementSpeed);
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                horizontal = horizontal * 1.5f;
+                vertical = vertical * 1.5f;
+            }
+            // Calculate movement direction relative to the player's orientation
+            Vector3 movement = transform.forward * vertical + transform.right * horizontal;
+
+            // Apply movement to the Rigidbody
+            rb.linearVelocity = new Vector3(movement.x * movementSpeed, rb.linearVelocity.y, movement.z * movementSpeed);
+        }
     }
 
     void OnCollisionEnter(Collision collision)

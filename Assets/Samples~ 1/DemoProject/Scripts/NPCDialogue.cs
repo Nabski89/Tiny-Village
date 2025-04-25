@@ -2,7 +2,8 @@ using DialogueGraph.Runtime;
 using TMPro;
 using UnityEngine;
 
-public class NPCDialogue : MonoBehaviour {
+public class NPCDialogue : MonoBehaviour
+{
     public RuntimeDialogueGraph DialogueSystem;
     public LineController LineController;
 
@@ -25,20 +26,32 @@ public class NPCDialogue : MonoBehaviour {
     private bool showingText;
     private string textToShow;
 
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.Z) && !isInConversation) {
+    //NB Testing
+    void Start()
+    {
+        DialogueSystem.ResetConversation();
+       // isInConversation = true;
+        Debug.LogWarning("Dialog on start testing This is from the NPC Dialogue. GetCurrentActor" + DialogueSystem.GetCurrentActor());
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Z) && !isInConversation)
+        {
             metBefore = false;
             isAngry = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.F) && !isInConversation) {
+        if (Input.GetKeyDown(KeyCode.F) && !isInConversation)
+        {
             DialogueSystem.ResetConversation();
             isInConversation = true;
             (showPlayer ? PlayerContainer : NpcContainer).SetActive(true);
         }
 
-        if (showingSecondaryScreen) {
-            if (Input.GetKeyDown(KeyCode.Escape)) {
+        if (showingSecondaryScreen)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
                 showingSecondaryScreen = false;
                 SecondaryScreen.SetActive(false);
             }
@@ -46,7 +59,8 @@ public class NPCDialogue : MonoBehaviour {
         }
 
         if (!isInConversation || isPlayerChoosing) return;
-        if (shouldShowText) {
+        if (shouldShowText)
+        {
             (showPlayer ? PlayerContainer : NpcContainer).SetActive(true);
             (showPlayer ? PlayerText : NpcText).gameObject.SetActive(true);
             (showPlayer ? PlayerText : NpcText).text = textToShow;
@@ -54,14 +68,19 @@ public class NPCDialogue : MonoBehaviour {
             shouldShowText = false;
         }
 
-        if (showingText) {
-            if (Input.GetKeyDown(KeyCode.Space)) {
+        if (showingText)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
                 showingText = false;
                 (showPlayer ? PlayerContainer : NpcContainer).SetActive(false);
                 (showPlayer ? PlayerText : NpcText).gameObject.SetActive(false);
             }
-        } else {
-            if (DialogueSystem.IsConversationDone()) {
+        }
+        else
+        {
+            if (DialogueSystem.IsConversationDone())
+            {
                 // Reset state
                 isInConversation = false;
                 showingSecondaryScreen = false;
@@ -76,13 +95,16 @@ public class NPCDialogue : MonoBehaviour {
             }
 
             var isNpc = DialogueSystem.IsCurrentNpc();
-            if (isNpc) {
+            if (isNpc)
+            {
                 var currentActor = DialogueSystem.GetCurrentActor();
                 showPlayer = false;
                 shouldShowText = true;
                 textToShow = DialogueSystem.ProgressNpc();
                 NpcName.text = currentActor.Name;
-            } else {
+            }
+            else
+            {
                 var currentLines = DialogueSystem.GetCurrentLines();
                 isPlayerChoosing = true;
                 PlayerContainer.SetActive(true);
@@ -92,7 +114,8 @@ public class NPCDialogue : MonoBehaviour {
         }
     }
 
-    public void PlayerSelect(int index) {
+    public void PlayerSelect(int index)
+    {
         LineController.gameObject.SetActive(false);
         textToShow = DialogueSystem.ProgressSelf(index);
         isPlayerChoosing = false;
@@ -100,27 +123,33 @@ public class NPCDialogue : MonoBehaviour {
         showPlayer = true;
     }
 
-    public bool MetBefore(string node, int lineIndex) {
+    public bool MetBefore(string node, int lineIndex)
+    {
         return metBefore;
     }
 
-    public bool Angry(string node, int lineIndex) {
+    public bool Angry(string node, int lineIndex)
+    {
         return isAngry;
     }
 
-    public void Meet(string node, int lineIndex) {
+    public void Meet(string node, int lineIndex)
+    {
         metBefore = true;
     }
 
-    public void MakeAngry(string node, int lineIndex) {
+    public void MakeAngry(string node, int lineIndex)
+    {
         isAngry = true;
     }
 
-    public void ClearAngry(string node, int lineIndex) {
+    public void ClearAngry(string node, int lineIndex)
+    {
         isAngry = false;
     }
 
-    public void PlayGame(string node, int lineIndex) {
+    public void PlayGame(string node, int lineIndex)
+    {
         showingSecondaryScreen = true;
         SecondaryScreen.SetActive(true);
 
@@ -131,7 +160,8 @@ public class NPCDialogue : MonoBehaviour {
         NpcText.gameObject.SetActive(false);
     }
 
-    public void OpenShop(string node, int lineIndex) {
+    public void OpenShop(string node, int lineIndex)
+    {
         showingSecondaryScreen = true;
         SecondaryScreen.SetActive(true);
 

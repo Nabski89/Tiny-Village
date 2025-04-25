@@ -13,7 +13,11 @@ public class InteractionManager : MonoBehaviour
 
     public LayerMask interactableLayerMask; // Layer mask for filtering raycast targets
     public float rayDistance = 5f; // Distance of the raycast
-
+    public BulkManager BulkManager;
+    private void Start()
+    {
+        BulkManager = GetComponent<BulkManager>();
+    }
     void Update()
     {
         // Perform a raycast forward from the GameObject
@@ -38,7 +42,7 @@ public class InteractionManager : MonoBehaviour
         }
         if (InteractionTarget != null)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && BulkManager.InDialogue == false)
             {
                 InteractionTarget.Interact();
             }
