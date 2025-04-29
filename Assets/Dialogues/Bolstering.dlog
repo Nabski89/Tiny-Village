@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "db56e6549a918dc4bb314319dd94ffac",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "0c01b7cb-4506-4ef3-afee-2b827a6ea1a2",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 297.0,
+                    "y": 182.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"006cbf6d-0895-49a7-9f3e-e7637ba194da\"}",
+            "PortData": [
+                "6011b2e0-cd9b-4616-8ec5-f08252df8309"
+            ]
+        },
+        {
+            "GUID": "82c4ae6e-4209-4573-b2c5-daa68c6d3211",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 475.0,
+                    "y": 223.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"It wasn't me.\\\",\\\"PortGuidA\\\":\\\"185cc1ed-aff4-4c1a-ada6-4bbbf23bcd3e\\\",\\\"PortGuidB\\\":\\\"d50ca713-8ce0-409a-b5f5-5a749420850e\\\",\\\"PortGuidC\\\":\\\"28256b73-64a6-4b7e-8710-7caff05f17e5\\\"}]\"}",
+            "PortData": [
+                "bc25fae5-5387-4b49-81fa-34cb60f9e579",
+                "70918b06-a81a-4814-a29b-aecbe292507c",
+                "185cc1ed-aff4-4c1a-ada6-4bbbf23bcd3e",
+                "d50ca713-8ce0-409a-b5f5-5a749420850e",
+                "28256b73-64a6-4b7e-8710-7caff05f17e5"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "82c4ae6e-4209-4573-b2c5-daa68c6d3211",
+            "Output": "0c01b7cb-4506-4ef3-afee-2b827a6ea1a2",
+            "InputPort": "70918b06-a81a-4814-a29b-aecbe292507c",
+            "OutputPort": "6011b2e0-cd9b-4616-8ec5-f08252df8309",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"006cbf6d-0895-49a7-9f3e-e7637ba194da\",\"Type\":2,\"DisplayName\":\"Bolstering\",\"ReferenceName\":\"Actor_773E1131\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"773E1131\"}"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "AssetGuid": "f914e86e034db434eac4e0af66b5402c",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "60dc7488-150f-4c2a-b35c-ec9c04accbf7",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 230.0,
+                    "y": 142.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"638a6f49-8905-417a-8660-342989cd7aef\"}",
+            "PortData": [
+                "2557617f-1289-48a2-8404-f1f325d0aa4e"
+            ]
+        },
+        {
+            "GUID": "d564c806-da3d-40c5-877c-4136fe5271a3",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 371.0,
+                    "y": 142.0,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"I believe in you.\\\",\\\"PortGuidA\\\":\\\"320eae8c-11cc-4bbe-84d6-2d4aca2b9328\\\",\\\"PortGuidB\\\":\\\"3274973a-c344-4467-ae13-a42eaa8851c4\\\",\\\"PortGuidC\\\":\\\"d6a57c74-b3bb-4798-8be0-527b06097cde\\\"}]\"}",
+            "PortData": [
+                "e801936c-1cf9-4c0e-b947-175b3fdd0098",
+                "7ab4d54a-e1f9-4493-9c78-2335b94acf0f",
+                "320eae8c-11cc-4bbe-84d6-2d4aca2b9328",
+                "3274973a-c344-4467-ae13-a42eaa8851c4",
+                "d6a57c74-b3bb-4798-8be0-527b06097cde"
+            ]
+        },
+        {
+            "GUID": "1cfdfe74-4729-4a03-bae6-d044df52eeeb",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 817.0,
+                    "y": 274.0,
+                    "width": 97.0,
+                    "height": 42.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"f9897fec-2a1e-45db-9839-3f3278067353\"}",
+            "PortData": [
+                "4c9c9457-6b93-4fc9-bfba-ac329713ea9c"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "d564c806-da3d-40c5-877c-4136fe5271a3",
+            "Output": "60dc7488-150f-4c2a-b35c-ec9c04accbf7",
+            "InputPort": "7ab4d54a-e1f9-4493-9c78-2335b94acf0f",
+            "OutputPort": "2557617f-1289-48a2-8404-f1f325d0aa4e",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "1cfdfe74-4729-4a03-bae6-d044df52eeeb",
+            "Output": "d564c806-da3d-40c5-877c-4136fe5271a3",
+            "InputPort": "4c9c9457-6b93-4fc9-bfba-ac329713ea9c",
+            "OutputPort": "3274973a-c344-4467-ae13-a42eaa8851c4",
+            "InputCapacity": 1,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"638a6f49-8905-417a-8660-342989cd7aef\",\"Type\":2,\"DisplayName\":\"Inspiring\",\"ReferenceName\":\"Actor_2589A2FA\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"2589A2FA\"}"
+        },
+        {
+            "Type": "DialogueGraph.TriggerProperty",
+            "Data": "{\"$type\":\"DialogueGraph.TriggerProperty, DialogueGraph.Editor\",\"GUID\":\"f9897fec-2a1e-45db-9839-3f3278067353\",\"Type\":0,\"DisplayName\":\"Minor Buff\",\"ReferenceName\":\"Trigger_6B18B218\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"6B18B218\"}"
+        }
+    ]
+}

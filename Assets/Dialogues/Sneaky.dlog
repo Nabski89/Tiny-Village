@@ -1,0 +1,189 @@
+{
+    "AssetGuid": "c7915776367c9ba498aa1d21f9aafe9d",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "b32e42d4-be47-425b-a3e0-1872dd533681",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 222.0,
+                    "y": 120.0,
+                    "width": 79.0,
+                    "height": 42.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"aade273d-118e-460f-b98b-f58d34c371e2\"}",
+            "PortData": [
+                "c59ab98e-770d-444a-b1c6-6be7e5bea1d0"
+            ]
+        },
+        {
+            "GUID": "7d4189fe-e243-46fa-a47a-fd89368f9aa5",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 351.0,
+                    "y": 187.0,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"You can't see me\\\",\\\"PortGuidA\\\":\\\"c22f9ebb-e877-416a-8c5d-880ca4d83405\\\",\\\"PortGuidB\\\":\\\"4722c1f9-a6e9-41c5-89d0-183e7ca68a5c\\\",\\\"PortGuidC\\\":\\\"e87f9025-4510-4c97-9fd7-eae5af6b9333\\\"}]\"}",
+            "PortData": [
+                "4868c3ae-745f-4783-b29d-32339ec574b0",
+                "b11eeea8-62f5-4078-9ec5-dad44eb3910b",
+                "c22f9ebb-e877-416a-8c5d-880ca4d83405",
+                "4722c1f9-a6e9-41c5-89d0-183e7ca68a5c",
+                "e87f9025-4510-4c97-9fd7-eae5af6b9333"
+            ]
+        },
+        {
+            "GUID": "082aa5ed-a7fa-433f-9139-3b3ba0eca98f",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 818.0,
+                    "y": 234.0,
+                    "width": 348.0,
+                    "height": 141.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Yes I can.\\\",\\\"PortGuidA\\\":\\\"10af4a7c-06b5-4f4f-a050-7ef8e0dcc2b4\\\",\\\"PortGuidB\\\":\\\"9f8ebb73-7119-4c42-bf79-fc26b26679bb\\\"},{\\\"Line\\\":\\\"Oh invisible voice can you teach me to be invisible too.\\\",\\\"PortGuidA\\\":\\\"d1808a6a-f60a-4bc3-b796-967601f158ea\\\",\\\"PortGuidB\\\":\\\"affd410c-940d-4c07-a605-7e0f61b5256a\\\"}]\"}",
+            "PortData": [
+                "8a9efaad-bd96-4f7b-9662-7a37cd5351e0",
+                "10af4a7c-06b5-4f4f-a050-7ef8e0dcc2b4",
+                "9f8ebb73-7119-4c42-bf79-fc26b26679bb",
+                "d1808a6a-f60a-4bc3-b796-967601f158ea",
+                "affd410c-940d-4c07-a605-7e0f61b5256a"
+            ]
+        },
+        {
+            "GUID": "ab0b5f46-1cad-44a7-8082-98d160559261",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1226.0,
+                    "y": 222.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Nuh uh.\\\",\\\"PortGuidA\\\":\\\"8ce922ca-b20d-414c-a7dd-ee605cb5488a\\\",\\\"PortGuidB\\\":\\\"f83aad6e-49a4-4962-ac1f-4b8351926682\\\",\\\"PortGuidC\\\":\\\"704efbd9-fd21-42a4-99c6-022c93ccc9e9\\\"}]\"}",
+            "PortData": [
+                "532d6f76-ed59-435c-8412-a3f2c91dcc35",
+                "b105ccb4-b9ec-4b6b-9a62-e07c10ece9fa",
+                "8ce922ca-b20d-414c-a7dd-ee605cb5488a",
+                "f83aad6e-49a4-4962-ac1f-4b8351926682",
+                "704efbd9-fd21-42a4-99c6-022c93ccc9e9"
+            ]
+        },
+        {
+            "GUID": "b9a324e6-0178-4675-b8fe-96070f9869f8",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1657.0,
+                    "y": 222.0,
+                    "width": 348.0,
+                    "height": 141.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Uh huh.\\\",\\\"PortGuidA\\\":\\\"fe0f73c1-a4ce-495e-abe5-f9aa8f5fae50\\\",\\\"PortGuidB\\\":\\\"bb7d61e6-0653-423f-9fba-88e435338591\\\"}]\"}",
+            "PortData": [
+                "3ebb0f27-9dfd-4cd3-8f5d-f5a4199484d1",
+                "fe0f73c1-a4ce-495e-abe5-f9aa8f5fae50",
+                "bb7d61e6-0653-423f-9fba-88e435338591"
+            ]
+        },
+        {
+            "GUID": "b58451c7-fb3a-4d5f-b87a-30f9bd5d792c",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1243.0,
+                    "y": 418.0,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"It's easy. All you need to do is close your eyes.\\\",\\\"PortGuidA\\\":\\\"f6c7050d-40a9-4bd1-be5a-e4029ca68f62\\\",\\\"PortGuidB\\\":\\\"7655ab3d-b859-4645-a889-bbadbfbf55f4\\\",\\\"PortGuidC\\\":\\\"853d7b1f-0066-410f-a591-4cc43e3b45a9\\\"}]\"}",
+            "PortData": [
+                "861862bf-2229-4b4e-a7fb-cc8b078f55f4",
+                "eefc677e-6a03-4a62-8092-9bd07ccb42f1",
+                "f6c7050d-40a9-4bd1-be5a-e4029ca68f62",
+                "7655ab3d-b859-4645-a889-bbadbfbf55f4",
+                "853d7b1f-0066-410f-a591-4cc43e3b45a9"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "7d4189fe-e243-46fa-a47a-fd89368f9aa5",
+            "Output": "b32e42d4-be47-425b-a3e0-1872dd533681",
+            "InputPort": "b11eeea8-62f5-4078-9ec5-dad44eb3910b",
+            "OutputPort": "c59ab98e-770d-444a-b1c6-6be7e5bea1d0",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "082aa5ed-a7fa-433f-9139-3b3ba0eca98f",
+            "Output": "7d4189fe-e243-46fa-a47a-fd89368f9aa5",
+            "InputPort": "8a9efaad-bd96-4f7b-9662-7a37cd5351e0",
+            "OutputPort": "c22f9ebb-e877-416a-8c5d-880ca4d83405",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "ab0b5f46-1cad-44a7-8082-98d160559261",
+            "Output": "082aa5ed-a7fa-433f-9139-3b3ba0eca98f",
+            "InputPort": "532d6f76-ed59-435c-8412-a3f2c91dcc35",
+            "OutputPort": "10af4a7c-06b5-4f4f-a050-7ef8e0dcc2b4",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "b9a324e6-0178-4675-b8fe-96070f9869f8",
+            "Output": "ab0b5f46-1cad-44a7-8082-98d160559261",
+            "InputPort": "3ebb0f27-9dfd-4cd3-8f5d-f5a4199484d1",
+            "OutputPort": "8ce922ca-b20d-414c-a7dd-ee605cb5488a",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "ab0b5f46-1cad-44a7-8082-98d160559261",
+            "Output": "b9a324e6-0178-4675-b8fe-96070f9869f8",
+            "InputPort": "532d6f76-ed59-435c-8412-a3f2c91dcc35",
+            "OutputPort": "fe0f73c1-a4ce-495e-abe5-f9aa8f5fae50",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "b58451c7-fb3a-4d5f-b87a-30f9bd5d792c",
+            "Output": "082aa5ed-a7fa-433f-9139-3b3ba0eca98f",
+            "InputPort": "861862bf-2229-4b4e-a7fb-cc8b078f55f4",
+            "OutputPort": "d1808a6a-f60a-4bc3-b796-967601f158ea",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"aade273d-118e-460f-b98b-f58d34c371e2\",\"Type\":2,\"DisplayName\":\"Sneaky\",\"ReferenceName\":\"Actor_3BB8F5BD\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"3BB8F5BD\"}"
+        }
+    ]
+}

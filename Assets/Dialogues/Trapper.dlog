@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "1eee1886431d7f84ba6d1124de4cfc1a",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "5c60a469-b74c-4bbc-b0eb-72eeb61702d9",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 339.0,
+                    "y": 158.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"a22c4ebf-36ef-4036-bd19-b7750ae034f8\"}",
+            "PortData": [
+                "d6e17d23-ee2a-466e-b3aa-525b3b7e3ac5"
+            ]
+        },
+        {
+            "GUID": "7ec7275d-055d-4b3a-b394-c7414f294ac1",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 522.0,
+                    "y": 158.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"I got some food\\\",\\\"PortGuidA\\\":\\\"a5820971-d90b-4e46-a40c-e6719f58acfb\\\",\\\"PortGuidB\\\":\\\"3da4988a-cc9a-436f-8d3b-a58920f20913\\\",\\\"PortGuidC\\\":\\\"6819dfde-6523-489e-88f2-049ed418d976\\\"}]\"}",
+            "PortData": [
+                "f12dc62f-977e-485c-b260-b72f4e01f018",
+                "00ff19f8-0527-401c-8161-3b6bcd3c3885",
+                "a5820971-d90b-4e46-a40c-e6719f58acfb",
+                "3da4988a-cc9a-436f-8d3b-a58920f20913",
+                "6819dfde-6523-489e-88f2-049ed418d976"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "7ec7275d-055d-4b3a-b394-c7414f294ac1",
+            "Output": "5c60a469-b74c-4bbc-b0eb-72eeb61702d9",
+            "InputPort": "00ff19f8-0527-401c-8161-3b6bcd3c3885",
+            "OutputPort": "d6e17d23-ee2a-466e-b3aa-525b3b7e3ac5",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"a22c4ebf-36ef-4036-bd19-b7750ae034f8\",\"Type\":2,\"DisplayName\":\"Trapper\",\"ReferenceName\":\"Actor_7E1AEE7\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"7E1AEE7\"}"
+        }
+    ]
+}

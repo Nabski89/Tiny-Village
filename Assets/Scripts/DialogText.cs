@@ -81,6 +81,10 @@ public class DialogText : MonoBehaviour
     }
     void AdvanceDialogue()
     {
+        if (DialogueSystem.IsConversationDone())
+        {
+            EndDialogue();
+        }
         var isNpc = DialogueSystem.IsCurrentNpc();
         if (isNpc)
             NonPlayer();

@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "e70738a8ffad49641923bff40e37f7cb",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "7db00d6e-2c74-4f23-bf4a-08242db2e1db",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 568.0,
+                    "y": 167.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"I am rubber, but actually it turned out to be lots of glue.\\\",\\\"PortGuidA\\\":\\\"16e81be0-b4c8-49b6-9106-3579c45b29bb\\\",\\\"PortGuidB\\\":\\\"75771f95-6a33-4749-8638-61dd38f84fc8\\\",\\\"PortGuidC\\\":\\\"ea661d28-7a85-441e-ba28-65ea7edfb663\\\"}]\"}",
+            "PortData": [
+                "98dbe9e4-ce54-44ab-ab0f-38c8011415bd",
+                "c4103e5d-ae6c-47f4-8050-2cc8953e9deb",
+                "16e81be0-b4c8-49b6-9106-3579c45b29bb",
+                "75771f95-6a33-4749-8638-61dd38f84fc8",
+                "ea661d28-7a85-441e-ba28-65ea7edfb663"
+            ]
+        },
+        {
+            "GUID": "e902d806-5f3d-496a-a94e-5e526eb277f6",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 408.0,
+                    "y": 176.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"7ee533ab-ce34-4667-bb93-7e756f22b4cd\"}",
+            "PortData": [
+                "7d75a608-ee58-408c-9c7b-8ecce877e4d0"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "7db00d6e-2c74-4f23-bf4a-08242db2e1db",
+            "Output": "e902d806-5f3d-496a-a94e-5e526eb277f6",
+            "InputPort": "c4103e5d-ae6c-47f4-8050-2cc8953e9deb",
+            "OutputPort": "7d75a608-ee58-408c-9c7b-8ecce877e4d0",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"7ee533ab-ce34-4667-bb93-7e756f22b4cd\",\"Type\":2,\"DisplayName\":\"Sticky\",\"ReferenceName\":\"Actor_D40EE6B\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"D40EE6B\"}"
+        }
+    ]
+}

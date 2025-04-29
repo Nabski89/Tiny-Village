@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "4326814cefba042478ad5086d81bf1fa",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "5c848394-00eb-4d53-9854-e7e97e7a8952",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 294.0,
+                    "y": 96.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"447ad943-6cc0-4f99-a7c2-01e76018ff54\"}",
+            "PortData": [
+                "c68d5d9f-6fd0-4288-bfb8-bb3964c69912"
+            ]
+        },
+        {
+            "GUID": "c143a747-2690-429d-9503-d5ab339dff91",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 416.0,
+                    "y": 96.0,
+                    "width": 145.0,
+                    "height": 96.00001525878906
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"To be a true warrior, one must consider the blade to be a sixth limb.\\\",\\\"PortGuidA\\\":\\\"b8ef4205-dc24-4e5f-9d62-c1abb5b8afce\\\",\\\"PortGuidB\\\":\\\"aa0fb594-72d5-4f7b-9816-c75f43cf9566\\\",\\\"PortGuidC\\\":\\\"26381bf3-0f95-4a0c-bbdf-caee879c677b\\\"}]\"}",
+            "PortData": [
+                "1ded88f9-8abb-4af4-aef6-aecc20c98180",
+                "f8fbe3e1-812a-4cfc-a27f-bd9606ab7051",
+                "b8ef4205-dc24-4e5f-9d62-c1abb5b8afce",
+                "aa0fb594-72d5-4f7b-9816-c75f43cf9566",
+                "26381bf3-0f95-4a0c-bbdf-caee879c677b"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "c143a747-2690-429d-9503-d5ab339dff91",
+            "Output": "5c848394-00eb-4d53-9854-e7e97e7a8952",
+            "InputPort": "f8fbe3e1-812a-4cfc-a27f-bd9606ab7051",
+            "OutputPort": "c68d5d9f-6fd0-4288-bfb8-bb3964c69912",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"447ad943-6cc0-4f99-a7c2-01e76018ff54\",\"Type\":2,\"DisplayName\":\"Heavy\",\"ReferenceName\":\"Actor_143E367C\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"143E367C\"}"
+        }
+    ]
+}

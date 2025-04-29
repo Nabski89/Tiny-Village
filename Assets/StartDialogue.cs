@@ -11,7 +11,6 @@ public class StartDialogue : MonoBehaviour, IInteractable
     }
     public void Interact()
     {
-
         StartDialog();
     }
 
@@ -20,15 +19,14 @@ public class StartDialogue : MonoBehaviour, IInteractable
     {
 
         // isInConversation = true;
-        Debug.LogWarning("Dialog on start testing This is from the StartDialogue. GetCurrentActor" + DialogueSystem.GetCurrentActor());
+     //   Debug.LogWarning("Dialog on start testing This is from the StartDialogue. GetCurrentActor" + DialogueSystem.GetCurrentActor());
 
         BulkManager = GetComponentInParent<BulkManager>();
         if (BulkManager == null)
         {
             Debug.LogWarning("Help you didn't put this under the big boy bulk manager");
         }
-        Debug.LogWarning("Dialog on start testing. GetCurrentActor" + DialogueSystem.GetCurrentActor());
-        StartDialog();
+//        Debug.LogWarning("Dialog on start testing. GetCurrentActor" + DialogueSystem.GetCurrentActor());
     }
 
     public BulkManager BulkManager; // Reference to the DialogComponent

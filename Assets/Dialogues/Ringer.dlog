@@ -1,0 +1,121 @@
+{
+    "AssetGuid": "783482140256b6c4895f3f0efbe7507c",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "7286a125-909e-45c0-9675-e568125b7ffd",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 282.0,
+                    "y": 119.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"6381481b-8aaa-47bf-9d0d-dc9d9141a403\"}",
+            "PortData": [
+                "f38a9f4d-69d4-4da3-b4e0-8ffb464872f5"
+            ]
+        },
+        {
+            "GUID": "b6a81464-b8e6-4566-8266-67c933f2c560",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 378.0,
+                    "y": 119.0,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Shift start is in 20 minutes, why aren't you ready.\\\",\\\"PortGuidA\\\":\\\"a8904f9f-077b-4a25-9b0d-0af36171bad6\\\",\\\"PortGuidB\\\":\\\"f21c6d58-6d1c-4550-a086-f9b9110bea5b\\\",\\\"PortGuidC\\\":\\\"af531ee0-2858-4909-9178-8b60e72deddb\\\"}]\"}",
+            "PortData": [
+                "67b507c4-cf69-48f5-946c-19686e0e988f",
+                "30c250fc-1dbe-4567-aced-aee3b9b9170a",
+                "a8904f9f-077b-4a25-9b0d-0af36171bad6",
+                "f21c6d58-6d1c-4550-a086-f9b9110bea5b",
+                "af531ee0-2858-4909-9178-8b60e72deddb"
+            ]
+        },
+        {
+            "GUID": "37e43c49-4b7d-4862-818c-5ae5b111065f",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 847.0,
+                    "y": 131.0,
+                    "width": 348.0,
+                    "height": 141.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"You're not my boss.\\\",\\\"PortGuidA\\\":\\\"69f26e06-ca1e-43f5-b806-26a289360783\\\",\\\"PortGuidB\\\":\\\"acb359c1-6c6d-45ec-b15c-1af4de62c58f\\\"}]\"}",
+            "PortData": [
+                "fe3cfe06-8243-4393-940c-f900cfe063b8",
+                "69f26e06-ca1e-43f5-b806-26a289360783",
+                "acb359c1-6c6d-45ec-b15c-1af4de62c58f"
+            ]
+        },
+        {
+            "GUID": "93641355-010c-4010-8b91-24435072bf73",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1246.0,
+                    "y": 131.0,
+                    "width": 145.0,
+                    "height": 96.00001525878906
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Well stay out of the way then,\\\",\\\"PortGuidA\\\":\\\"f018da1d-3d7d-4429-8039-f66e761c7c54\\\",\\\"PortGuidB\\\":\\\"b74c0841-c486-4bdc-9e55-8ddc2362056e\\\",\\\"PortGuidC\\\":\\\"38a9c061-7409-4352-b61b-3b262066ef25\\\"}]\"}",
+            "PortData": [
+                "c67ec0e1-888b-4860-b1f1-ac8f1fa74fca",
+                "b36eb3cc-ca6b-4f0c-bddf-18e0edac84a4",
+                "f018da1d-3d7d-4429-8039-f66e761c7c54",
+                "b74c0841-c486-4bdc-9e55-8ddc2362056e",
+                "38a9c061-7409-4352-b61b-3b262066ef25"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "b6a81464-b8e6-4566-8266-67c933f2c560",
+            "Output": "7286a125-909e-45c0-9675-e568125b7ffd",
+            "InputPort": "30c250fc-1dbe-4567-aced-aee3b9b9170a",
+            "OutputPort": "f38a9f4d-69d4-4da3-b4e0-8ffb464872f5",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "37e43c49-4b7d-4862-818c-5ae5b111065f",
+            "Output": "b6a81464-b8e6-4566-8266-67c933f2c560",
+            "InputPort": "fe3cfe06-8243-4393-940c-f900cfe063b8",
+            "OutputPort": "a8904f9f-077b-4a25-9b0d-0af36171bad6",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "93641355-010c-4010-8b91-24435072bf73",
+            "Output": "37e43c49-4b7d-4862-818c-5ae5b111065f",
+            "InputPort": "c67ec0e1-888b-4860-b1f1-ac8f1fa74fca",
+            "OutputPort": "69f26e06-ca1e-43f5-b806-26a289360783",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"6381481b-8aaa-47bf-9d0d-dc9d9141a403\",\"Type\":2,\"DisplayName\":\"Ringer\",\"ReferenceName\":\"Actor_5C88C98F\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"5C88C98F\"}"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "AssetGuid": "f5eb34ee09e335c40bf5268d99eaa778",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "38b1dcc2-fd7b-406c-83b4-e9afe70cc285",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 273.0,
+                    "y": 165.0,
+                    "width": 90.0,
+                    "height": 42.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"cd539861-2358-4ee3-bf80-ab452f7b0449\"}",
+            "PortData": [
+                "42d548d3-74aa-42a9-b0cf-76ed4c326547"
+            ]
+        },
+        {
+            "GUID": "e9b2fcf3-92ba-4cbb-aad4-34fee3e1904a",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 386.0,
+                    "y": 165.0,
+                    "width": 442.0,
+                    "height": 161.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\". . .if we send Sticky, Lazy, and Miner to Shaft 2, and Engineer with Fancy to the council then . . .  \\\",\\\"PortGuidA\\\":\\\"08f8f0f7-e41f-4c2a-830b-d4a85be32a0e\\\",\\\"PortGuidB\\\":\\\"af53cc11-bf3b-4e01-a087-72502a7b4469\\\",\\\"PortGuidC\\\":\\\"e154a8aa-7a7e-4819-85f9-eb081b37532b\\\"}]\"}",
+            "PortData": [
+                "b829845e-e9cf-43b4-a992-6e54df943ed4",
+                "404799bc-d094-4fd2-b81c-cc493d38576c",
+                "08f8f0f7-e41f-4c2a-830b-d4a85be32a0e",
+                "af53cc11-bf3b-4e01-a087-72502a7b4469",
+                "e154a8aa-7a7e-4819-85f9-eb081b37532b"
+            ]
+        },
+        {
+            "GUID": "7de84f03-a585-430d-8e0b-829c7a08f475",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 888.0,
+                    "y": 165.0,
+                    "width": 348.0,
+                    "height": 141.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Excuse me?\\\",\\\"PortGuidA\\\":\\\"47080cf0-e035-4aa0-b7d4-1a1c0b964805\\\",\\\"PortGuidB\\\":\\\"a2e975ec-914e-49c0-931d-f40b09cde439\\\"}]\"}",
+            "PortData": [
+                "30f705df-562f-45f7-baf1-25a35199a176",
+                "47080cf0-e035-4aa0-b7d4-1a1c0b964805",
+                "a2e975ec-914e-49c0-931d-f40b09cde439"
+            ]
+        },
+        {
+            "GUID": "c0819baf-e703-4dcc-a062-7dbc3111b306",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1316.0,
+                    "y": 165.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Sorry just thinking outloud. There's been staffing issues for the last month.\\\",\\\"PortGuidA\\\":\\\"a943cd7f-c86b-4533-abc6-1755a33bfdea\\\",\\\"PortGuidB\\\":\\\"61b87420-0ee0-4efd-a970-28bcd5bb5c5c\\\",\\\"PortGuidC\\\":\\\"cf8ae109-6d57-4811-b98d-c66efaaae623\\\"}]\"}",
+            "PortData": [
+                "bba8aa09-cbc0-4711-ab26-31137bdd1ff3",
+                "f937f394-71f3-4419-a95f-03a017f0b544",
+                "a943cd7f-c86b-4533-abc6-1755a33bfdea",
+                "61b87420-0ee0-4efd-a970-28bcd5bb5c5c",
+                "cf8ae109-6d57-4811-b98d-c66efaaae623"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "e9b2fcf3-92ba-4cbb-aad4-34fee3e1904a",
+            "Output": "38b1dcc2-fd7b-406c-83b4-e9afe70cc285",
+            "InputPort": "404799bc-d094-4fd2-b81c-cc493d38576c",
+            "OutputPort": "42d548d3-74aa-42a9-b0cf-76ed4c326547",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "7de84f03-a585-430d-8e0b-829c7a08f475",
+            "Output": "e9b2fcf3-92ba-4cbb-aad4-34fee3e1904a",
+            "InputPort": "30f705df-562f-45f7-baf1-25a35199a176",
+            "OutputPort": "08f8f0f7-e41f-4c2a-830b-d4a85be32a0e",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "c0819baf-e703-4dcc-a062-7dbc3111b306",
+            "Output": "7de84f03-a585-430d-8e0b-829c7a08f475",
+            "InputPort": "bba8aa09-cbc0-4711-ab26-31137bdd1ff3",
+            "OutputPort": "47080cf0-e035-4aa0-b7d4-1a1c0b964805",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"cd539861-2358-4ee3-bf80-ab452f7b0449\",\"Type\":2,\"DisplayName\":\"Overseer\",\"ReferenceName\":\"Actor_39908A84\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"39908A84\"}"
+        }
+    ]
+}

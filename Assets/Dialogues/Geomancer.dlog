@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "d9c1130fc713d9248bcde4ac37cef699",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "900665c8-8f96-4683-af93-06e9b32ab79a",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 236.0,
+                    "y": 142.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"1106ef7b-3a64-428a-8cf8-062cfc92d5cf\"}",
+            "PortData": [
+                "b4db29ff-b4cb-477f-94a6-0c61d91ac71f"
+            ]
+        },
+        {
+            "GUID": "6385b0c2-e337-4f3c-ac04-e74bd4fa9948",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 391.0,
+                    "y": 142.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"May the earthfather bless you.\\\",\\\"PortGuidA\\\":\\\"56b32e11-3a03-4ec3-a468-1a3dfd9bdff8\\\",\\\"PortGuidB\\\":\\\"2c1c9198-73aa-42ea-9531-e3685ee98033\\\",\\\"PortGuidC\\\":\\\"32c3fec4-d3ff-4f2c-9f34-bd5ab3525930\\\"}]\"}",
+            "PortData": [
+                "d572b33b-c2da-4940-b37c-0a6042c5af71",
+                "f1d89c48-ed50-4f2d-ab50-2f067771b364",
+                "56b32e11-3a03-4ec3-a468-1a3dfd9bdff8",
+                "2c1c9198-73aa-42ea-9531-e3685ee98033",
+                "32c3fec4-d3ff-4f2c-9f34-bd5ab3525930"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "6385b0c2-e337-4f3c-ac04-e74bd4fa9948",
+            "Output": "900665c8-8f96-4683-af93-06e9b32ab79a",
+            "InputPort": "f1d89c48-ed50-4f2d-ab50-2f067771b364",
+            "OutputPort": "b4db29ff-b4cb-477f-94a6-0c61d91ac71f",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"1106ef7b-3a64-428a-8cf8-062cfc92d5cf\",\"Type\":2,\"DisplayName\":\"Geomancer\",\"ReferenceName\":\"Actor_9E00BC6A\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"9E00BC6A\"}"
+        }
+    ]
+}

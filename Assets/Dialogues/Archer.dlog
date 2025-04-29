@@ -1,0 +1,243 @@
+{
+    "AssetGuid": "6aa3dee67ed315c4b86f741bd2f468b8",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "d532bae8-0690-4f09-a917-198cdf755543",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 380.0,
+                    "y": 193.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"You never known what kinds of threats are out there. It's up to me to keep watch.\\\",\\\"PortGuidA\\\":\\\"bd38bd11-78af-4c9a-8d79-8cbf19a8e153\\\",\\\"PortGuidB\\\":\\\"d4fee0cb-ef45-402d-995f-d7dcf692334e\\\",\\\"PortGuidC\\\":\\\"b99cbc99-4c00-4c05-9373-48e9be63d578\\\"}]\"}",
+            "PortData": [
+                "2e0fdd66-0f11-4193-9fb8-f33fcab6b4d6",
+                "557ee92e-8f79-4872-adf0-8bd5592bda3a",
+                "bd38bd11-78af-4c9a-8d79-8cbf19a8e153",
+                "d4fee0cb-ef45-402d-995f-d7dcf692334e",
+                "b99cbc99-4c00-4c05-9373-48e9be63d578"
+            ]
+        },
+        {
+            "GUID": "3168b08a-e271-433d-9aee-92de380a430a",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 251.0,
+                    "y": 193.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"340b3e81-7ba1-4354-9255-e6a8fb0514cb\"}",
+            "PortData": [
+                "a8ca338b-e5e0-4271-b885-b0c2876b08d3"
+            ]
+        },
+        {
+            "GUID": "4e23fc77-7abd-4200-9eed-b8761a707933",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 898.0,
+                    "y": 244.0,
+                    "width": 145.0,
+                    "height": 84.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"What are you looking out for?\\\",\\\"PortGuidA\\\":\\\"e6c58a27-ad6c-4f77-b49f-1a8fde8a5ea0\\\",\\\"PortGuidB\\\":\\\"fbb08134-8d2b-4590-b475-9009c9fd370f\\\"},{\\\"Line\\\":\\\"Have you seen anything interesting while on watch?\\\",\\\"PortGuidA\\\":\\\"509f1d64-ffac-4c3b-8612-6d860efccce0\\\",\\\"PortGuidB\\\":\\\"6edb7935-2462-42fc-8216-84f96c23977e\\\"},{\\\"Line\\\":\\\"Can I try your bow?\\\",\\\"PortGuidA\\\":\\\"ab24fdd5-619c-41a5-bae6-630db2ab86c4\\\",\\\"PortGuidB\\\":\\\"75707b51-e86c-4469-8dbd-a9855b6d7813\\\"}]\"}",
+            "PortData": [
+                "2c3ddfb5-4c1a-41e8-97fb-6bd1aa79de41",
+                "e6c58a27-ad6c-4f77-b49f-1a8fde8a5ea0",
+                "fbb08134-8d2b-4590-b475-9009c9fd370f",
+                "509f1d64-ffac-4c3b-8612-6d860efccce0",
+                "6edb7935-2462-42fc-8216-84f96c23977e",
+                "ab24fdd5-619c-41a5-bae6-630db2ab86c4",
+                "75707b51-e86c-4469-8dbd-a9855b6d7813"
+            ]
+        },
+        {
+            "GUID": "0e0787f7-fb41-40ef-b674-e8c628b4beed",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1435.0001220703125,
+                    "y": 446.0,
+                    "width": 394.0,
+                    "height": 153.00006103515626
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"I think not.\\\",\\\"PortGuidA\\\":\\\"7d7b2dc2-b263-431b-a9e2-4cb5f9b1f7a5\\\",\\\"PortGuidB\\\":\\\"9dbb643b-8c93-4cbb-897b-c59ba09d04ed\\\",\\\"PortGuidC\\\":\\\"4ad777c8-8779-4a43-b153-bb937b79baf7\\\"}]\"}",
+            "PortData": [
+                "46e42076-0697-478e-8779-2825b6761004",
+                "d0500d0c-f3d2-4f14-999e-934f4cd6914c",
+                "7d7b2dc2-b263-431b-a9e2-4cb5f9b1f7a5",
+                "9dbb643b-8c93-4cbb-897b-c59ba09d04ed",
+                "4ad777c8-8779-4a43-b153-bb937b79baf7"
+            ]
+        },
+        {
+            "GUID": "78406d7f-b14f-4e9e-ade3-45e9566af609",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1435.0001220703125,
+                    "y": 272.0,
+                    "width": 441.0,
+                    "height": 174.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Bolstering keeps going to the imp den after dark and is keeping it secret, but I don't know why.\\\",\\\"PortGuidA\\\":\\\"55fabd0b-ed51-4ad2-8fbf-817a73e589e1\\\",\\\"PortGuidB\\\":\\\"16541a22-0b01-4eac-86e6-7319e36b9805\\\",\\\"PortGuidC\\\":\\\"dfea104c-98e0-4a86-b942-737724d5d68a\\\"}]\"}",
+            "PortData": [
+                "0820dac3-9ab5-447d-a6a6-6d83b7e40cf9",
+                "c5ebf524-a584-4d37-859e-4dc4ef7f4b09",
+                "55fabd0b-ed51-4ad2-8fbf-817a73e589e1",
+                "16541a22-0b01-4eac-86e6-7319e36b9805",
+                "dfea104c-98e0-4a86-b942-737724d5d68a"
+            ]
+        },
+        {
+            "GUID": "69b77353-5527-4921-83e7-e2cdaebdd835",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1435.0001220703125,
+                    "y": 117.0,
+                    "width": 430.9998779296875,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Mostly monsters and signs of fire.\\\",\\\"PortGuidA\\\":\\\"6ab2c480-2889-4ac5-9642-e834e6fc2055\\\",\\\"PortGuidB\\\":\\\"83ccf561-c9c3-472c-a2b8-a8c3519b7a44\\\",\\\"PortGuidC\\\":\\\"09e8651e-69a6-42ef-805b-54f69ee9c994\\\"}]\"}",
+            "PortData": [
+                "8eaa794a-60d8-4da8-862c-3dc4f90f3c3e",
+                "358dd56f-b5a2-4ad8-a5fa-364070beae4a",
+                "6ab2c480-2889-4ac5-9642-e834e6fc2055",
+                "83ccf561-c9c3-472c-a2b8-a8c3519b7a44",
+                "09e8651e-69a6-42ef-805b-54f69ee9c994"
+            ]
+        },
+        {
+            "GUID": "f293cc0a-57dd-4245-9aea-902b81a3dd53",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1916.302490234375,
+                    "y": 277.7250061035156,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Fire?\\\",\\\"PortGuidA\\\":\\\"ce33e58e-f270-4a95-8ac9-5b032a660b2f\\\",\\\"PortGuidB\\\":\\\"fc258a2f-e439-451c-9a41-f448a1a11ad2\\\"}]\"}",
+            "PortData": [
+                "6431a51b-d03d-458a-a2cb-5deca8cb80d7",
+                "ce33e58e-f270-4a95-8ac9-5b032a660b2f",
+                "fc258a2f-e439-451c-9a41-f448a1a11ad2"
+            ]
+        },
+        {
+            "GUID": "ba491f7e-f978-4fc0-867e-6862dd9096e3",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 2298.505126953125,
+                    "y": 255.24249267578126,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"It could be someone coming to visit, or a forest fire.\\\",\\\"PortGuidA\\\":\\\"bc9aa96b-b74c-4345-9e25-a56758700068\\\",\\\"PortGuidB\\\":\\\"1779c4a4-4042-4ce0-a3e6-ce277e061f57\\\",\\\"PortGuidC\\\":\\\"eb657036-048c-43af-bbe1-898060ad4e97\\\"}]\"}",
+            "PortData": [
+                "67cf17d8-02f0-42d9-bdf0-0742797a5be5",
+                "18a4f23e-0e58-441a-acb1-af20f92e4111",
+                "bc9aa96b-b74c-4345-9e25-a56758700068",
+                "1779c4a4-4042-4ce0-a3e6-ce277e061f57",
+                "eb657036-048c-43af-bbe1-898060ad4e97"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "d532bae8-0690-4f09-a917-198cdf755543",
+            "Output": "3168b08a-e271-433d-9aee-92de380a430a",
+            "InputPort": "557ee92e-8f79-4872-adf0-8bd5592bda3a",
+            "OutputPort": "a8ca338b-e5e0-4271-b885-b0c2876b08d3",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "4e23fc77-7abd-4200-9eed-b8761a707933",
+            "Output": "d532bae8-0690-4f09-a917-198cdf755543",
+            "InputPort": "2c3ddfb5-4c1a-41e8-97fb-6bd1aa79de41",
+            "OutputPort": "bd38bd11-78af-4c9a-8d79-8cbf19a8e153",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "0e0787f7-fb41-40ef-b674-e8c628b4beed",
+            "Output": "4e23fc77-7abd-4200-9eed-b8761a707933",
+            "InputPort": "46e42076-0697-478e-8779-2825b6761004",
+            "OutputPort": "ab24fdd5-619c-41a5-bae6-630db2ab86c4",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "78406d7f-b14f-4e9e-ade3-45e9566af609",
+            "Output": "4e23fc77-7abd-4200-9eed-b8761a707933",
+            "InputPort": "0820dac3-9ab5-447d-a6a6-6d83b7e40cf9",
+            "OutputPort": "509f1d64-ffac-4c3b-8612-6d860efccce0",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "69b77353-5527-4921-83e7-e2cdaebdd835",
+            "Output": "4e23fc77-7abd-4200-9eed-b8761a707933",
+            "InputPort": "8eaa794a-60d8-4da8-862c-3dc4f90f3c3e",
+            "OutputPort": "e6c58a27-ad6c-4f77-b49f-1a8fde8a5ea0",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "f293cc0a-57dd-4245-9aea-902b81a3dd53",
+            "Output": "69b77353-5527-4921-83e7-e2cdaebdd835",
+            "InputPort": "6431a51b-d03d-458a-a2cb-5deca8cb80d7",
+            "OutputPort": "6ab2c480-2889-4ac5-9642-e834e6fc2055",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "ba491f7e-f978-4fc0-867e-6862dd9096e3",
+            "Output": "f293cc0a-57dd-4245-9aea-902b81a3dd53",
+            "InputPort": "67cf17d8-02f0-42d9-bdf0-0742797a5be5",
+            "OutputPort": "ce33e58e-f270-4a95-8ac9-5b032a660b2f",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"340b3e81-7ba1-4354-9255-e6a8fb0514cb\",\"Type\":2,\"DisplayName\":\"Archer\",\"ReferenceName\":\"Actor_DC0FEF13\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"DC0FEF13\"}"
+        }
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "AssetGuid": "096a505e414584545be0cb201045917b",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "9d339f53-df8f-4286-a49b-eec75e37226e",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 200.0,
+                    "y": 153.0,
+                    "width": 64.0,
+                    "height": 42.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"9b1ae6fb-901f-4fa9-9869-5dd36703bb3e\"}",
+            "PortData": [
+                "f98faeee-3292-4c64-ae77-102bd5491282"
+            ]
+        },
+        {
+            "GUID": "8a3f018a-7ad5-4550-b2ab-5c7dc59b6504",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 283.0,
+                    "y": 153.0,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"I am the rock upon which the wind breaks.\\\",\\\"PortGuidA\\\":\\\"5dbc19bc-eac0-4ae8-9f6c-e8ea36b7a332\\\",\\\"PortGuidB\\\":\\\"81f12b9b-e16f-4553-8069-6106d7f9574a\\\",\\\"PortGuidC\\\":\\\"a015dcc4-0b84-4a27-8105-c3b2a0565ad4\\\"}]\"}",
+            "PortData": [
+                "e353b83c-3791-4fda-8117-05909929acd1",
+                "c795e225-ec8e-4684-b7d3-f0f09f6f06e0",
+                "5dbc19bc-eac0-4ae8-9f6c-e8ea36b7a332",
+                "81f12b9b-e16f-4553-8069-6106d7f9574a",
+                "a015dcc4-0b84-4a27-8105-c3b2a0565ad4"
+            ]
+        },
+        {
+            "GUID": "2ed379b1-f470-4789-8681-5940f509c279",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 726.0,
+                    "y": 153.0,
+                    "width": 348.0,
+                    "height": 141.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"What does that even mean?\\\",\\\"PortGuidA\\\":\\\"97e82083-68d6-4939-a0a2-bdca96481869\\\",\\\"PortGuidB\\\":\\\"b69939fe-3c57-4f22-9e88-9c52bca651c7\\\"}]\"}",
+            "PortData": [
+                "4b851032-a742-4450-98fb-941c7bd4e14d",
+                "97e82083-68d6-4939-a0a2-bdca96481869",
+                "b69939fe-3c57-4f22-9e88-9c52bca651c7"
+            ]
+        },
+        {
+            "GUID": "ef2cede0-aa2f-4a1a-80f0-adef8623c31a",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1096.0,
+                    "y": 153.0,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"It means I don't want to get up.\\\",\\\"PortGuidA\\\":\\\"d2090af1-cba4-4a03-80a4-83a4507c8825\\\",\\\"PortGuidB\\\":\\\"a3354ca0-5c7d-4086-9a78-59582ac31e39\\\",\\\"PortGuidC\\\":\\\"e8c5c039-9682-4453-b73e-eb25ec46a226\\\"}]\"}",
+            "PortData": [
+                "bd863b58-6262-4e00-8a65-280dc5090f21",
+                "cbd46be4-33a0-44aa-ac7f-7cbd9523f45b",
+                "d2090af1-cba4-4a03-80a4-83a4507c8825",
+                "a3354ca0-5c7d-4086-9a78-59582ac31e39",
+                "e8c5c039-9682-4453-b73e-eb25ec46a226"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "8a3f018a-7ad5-4550-b2ab-5c7dc59b6504",
+            "Output": "9d339f53-df8f-4286-a49b-eec75e37226e",
+            "InputPort": "c795e225-ec8e-4684-b7d3-f0f09f6f06e0",
+            "OutputPort": "f98faeee-3292-4c64-ae77-102bd5491282",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "2ed379b1-f470-4789-8681-5940f509c279",
+            "Output": "8a3f018a-7ad5-4550-b2ab-5c7dc59b6504",
+            "InputPort": "4b851032-a742-4450-98fb-941c7bd4e14d",
+            "OutputPort": "5dbc19bc-eac0-4ae8-9f6c-e8ea36b7a332",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "ef2cede0-aa2f-4a1a-80f0-adef8623c31a",
+            "Output": "2ed379b1-f470-4789-8681-5940f509c279",
+            "InputPort": "bd863b58-6262-4e00-8a65-280dc5090f21",
+            "OutputPort": "97e82083-68d6-4939-a0a2-bdca96481869",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"9b1ae6fb-901f-4fa9-9869-5dd36703bb3e\",\"Type\":2,\"DisplayName\":\"Lazy\",\"ReferenceName\":\"Actor_601E47B\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"601E47B\"}"
+        }
+    ]
+}

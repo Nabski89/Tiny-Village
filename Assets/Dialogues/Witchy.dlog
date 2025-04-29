@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "7e1e2dd248c19f446a67adf5208fa6ad",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "53923b5f-6c5d-420b-a0e8-24d26bc99a8e",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 400.0,
+                    "y": 150.0,
+                    "width": 77.0,
+                    "height": 42.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"d241cffb-6222-4022-9393-0d5060b68e97\"}",
+            "PortData": [
+                "ab3a90d8-9f06-437e-8dd2-a62e3b6ccff4"
+            ]
+        },
+        {
+            "GUID": "a1e94c67-6c57-4978-89d2-b958bea059f8",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 518.0,
+                    "y": 150.0,
+                    "width": 422.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Leave me alone or I will hex you.\\\",\\\"PortGuidA\\\":\\\"56441036-bea2-4ad6-8638-50b4825f46e9\\\",\\\"PortGuidB\\\":\\\"0d5c0bc0-03e4-4d53-9f77-c1e75d42436e\\\",\\\"PortGuidC\\\":\\\"c0f928ba-acb1-4854-bfbf-076446295a6c\\\"}]\"}",
+            "PortData": [
+                "d3d0ba89-79fc-4491-ab29-7d12d28a0c5f",
+                "a3c788b1-d5fe-47f0-a822-1b5aae7d7a4c",
+                "56441036-bea2-4ad6-8638-50b4825f46e9",
+                "0d5c0bc0-03e4-4d53-9f77-c1e75d42436e",
+                "c0f928ba-acb1-4854-bfbf-076446295a6c"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "a1e94c67-6c57-4978-89d2-b958bea059f8",
+            "Output": "53923b5f-6c5d-420b-a0e8-24d26bc99a8e",
+            "InputPort": "a3c788b1-d5fe-47f0-a822-1b5aae7d7a4c",
+            "OutputPort": "ab3a90d8-9f06-437e-8dd2-a62e3b6ccff4",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"d241cffb-6222-4022-9393-0d5060b68e97\",\"Type\":2,\"DisplayName\":\"Witchy\",\"ReferenceName\":\"Actor_B3B5655F\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"B3B5655F\"}"
+        }
+    ]
+}

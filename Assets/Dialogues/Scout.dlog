@@ -1,0 +1,169 @@
+{
+    "AssetGuid": "a73d5a17c009bd14b807000d7381000f",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "4e1d319c-6ea2-4176-9fdc-9e7f2e25d28e",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 253.0,
+                    "y": 131.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"90b3d027-cd59-4999-8dfa-894acf13dd6e\"}",
+            "PortData": [
+                "2c0ce55c-b232-41bd-bf31-47217fbe1883"
+            ]
+        },
+        {
+            "GUID": "eb99a580-46f9-4eb8-8f35-bc9350e20d32",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 372.0,
+                    "y": 124.99999237060547,
+                    "width": 145.0,
+                    "height": 96.00000762939453
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"Stay out of the mountians, it's not safe.\\\",\\\"PortGuidA\\\":\\\"54b2a994-04b1-40d5-982a-e0314ab710c8\\\",\\\"PortGuidB\\\":\\\"0751deb5-2fb6-4cd7-85a2-e01622a3f452\\\",\\\"PortGuidC\\\":\\\"83e4caea-5fb6-4906-8f6c-8c0577aeb481\\\"}]\"}",
+            "PortData": [
+                "22281634-53c2-405a-b800-d284c2d75ee4",
+                "fc63ce23-0fd7-4448-a472-8f28ac0db96e",
+                "54b2a994-04b1-40d5-982a-e0314ab710c8",
+                "0751deb5-2fb6-4cd7-85a2-e01622a3f452",
+                "83e4caea-5fb6-4906-8f6c-8c0577aeb481"
+            ]
+        },
+        {
+            "GUID": "81393a80-00c2-4ca9-904e-610b2d5ded36",
+            "Type": "DialogueGraph.SelfNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 858.0,
+                    "y": 125.00000762939453,
+                    "width": 348.0001220703125,
+                    "height": 176.00003051757813
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"What mountians?\\\",\\\"PortGuidA\\\":\\\"12482483-1936-4adf-82a8-83f95b2f3a8b\\\",\\\"PortGuidB\\\":\\\"1036848c-00a6-4653-bfd8-297b74076a3f\\\"},{\\\"Line\\\":\\\"Why?\\\",\\\"PortGuidA\\\":\\\"7b7990b5-8357-4016-8cf4-a9d1288cd206\\\",\\\"PortGuidB\\\":\\\"1b6e5fac-e2c7-43f4-b30d-2c81fb18db4c\\\"}]\"}",
+            "PortData": [
+                "b81580b1-5057-4365-b26f-397628c48ebf",
+                "12482483-1936-4adf-82a8-83f95b2f3a8b",
+                "1036848c-00a6-4653-bfd8-297b74076a3f",
+                "7b7990b5-8357-4016-8cf4-a9d1288cd206",
+                "1b6e5fac-e2c7-43f4-b30d-2c81fb18db4c"
+            ]
+        },
+        {
+            "GUID": "30a30343-e073-4f27-abb7-b8cfe2cf2de5",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1272.0,
+                    "y": 125.00000762939453,
+                    "width": 394.0,
+                    "height": 153.00003051757813
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"The path to the north that leads to the old mine.\\\",\\\"PortGuidA\\\":\\\"dc668cf8-a4fc-486a-913b-5877721843c9\\\",\\\"PortGuidB\\\":\\\"80973c1b-aa21-47b3-b1d5-71a802b46ef8\\\",\\\"PortGuidC\\\":\\\"d5755915-89c9-4595-89b0-d10418220fd6\\\"}]\"}",
+            "PortData": [
+                "218f4c0d-2428-46a0-9850-5e2357b4cf1d",
+                "4c7ae57b-8b51-4039-a03e-56cc3b4cca52",
+                "dc668cf8-a4fc-486a-913b-5877721843c9",
+                "80973c1b-aa21-47b3-b1d5-71a802b46ef8",
+                "d5755915-89c9-4595-89b0-d10418220fd6"
+            ]
+        },
+        {
+            "GUID": "8fdad55e-9f15-48f2-b157-20e2afa6fbad",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 1272.0,
+                    "y": 278.0000305175781,
+                    "width": 394.0,
+                    "height": 153.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"There was a rockslide.\\\",\\\"PortGuidA\\\":\\\"17498cb7-26dc-4446-834a-d7381f71f477\\\",\\\"PortGuidB\\\":\\\"04c09d9b-a296-4750-899c-3471753100c5\\\",\\\"PortGuidC\\\":\\\"232f5bfb-480b-4cb9-8a79-c55b357c677c\\\"}]\"}",
+            "PortData": [
+                "26987523-0961-4f67-a570-1808d4a21e48",
+                "e1c5da50-1457-4c82-a700-b2546a92dd98",
+                "17498cb7-26dc-4446-834a-d7381f71f477",
+                "04c09d9b-a296-4750-899c-3471753100c5",
+                "232f5bfb-480b-4cb9-8a79-c55b357c677c"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "eb99a580-46f9-4eb8-8f35-bc9350e20d32",
+            "Output": "4e1d319c-6ea2-4176-9fdc-9e7f2e25d28e",
+            "InputPort": "fc63ce23-0fd7-4448-a472-8f28ac0db96e",
+            "OutputPort": "2c0ce55c-b232-41bd-bf31-47217fbe1883",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        },
+        {
+            "Input": "81393a80-00c2-4ca9-904e-610b2d5ded36",
+            "Output": "eb99a580-46f9-4eb8-8f35-bc9350e20d32",
+            "InputPort": "b81580b1-5057-4365-b26f-397628c48ebf",
+            "OutputPort": "54b2a994-04b1-40d5-982a-e0314ab710c8",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "30a30343-e073-4f27-abb7-b8cfe2cf2de5",
+            "Output": "81393a80-00c2-4ca9-904e-610b2d5ded36",
+            "InputPort": "218f4c0d-2428-46a0-9850-5e2357b4cf1d",
+            "OutputPort": "12482483-1936-4adf-82a8-83f95b2f3a8b",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "8fdad55e-9f15-48f2-b157-20e2afa6fbad",
+            "Output": "81393a80-00c2-4ca9-904e-610b2d5ded36",
+            "InputPort": "26987523-0961-4f67-a570-1808d4a21e48",
+            "OutputPort": "7b7990b5-8357-4016-8cf4-a9d1288cd206",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "81393a80-00c2-4ca9-904e-610b2d5ded36",
+            "Output": "30a30343-e073-4f27-abb7-b8cfe2cf2de5",
+            "InputPort": "b81580b1-5057-4365-b26f-397628c48ebf",
+            "OutputPort": "dc668cf8-a4fc-486a-913b-5877721843c9",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        },
+        {
+            "Input": "81393a80-00c2-4ca9-904e-610b2d5ded36",
+            "Output": "8fdad55e-9f15-48f2-b157-20e2afa6fbad",
+            "InputPort": "b81580b1-5057-4365-b26f-397628c48ebf",
+            "OutputPort": "17498cb7-26dc-4446-834a-d7381f71f477",
+            "InputCapacity": 1,
+            "OutputCapacity": 0
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"90b3d027-cd59-4999-8dfa-894acf13dd6e\",\"Type\":2,\"DisplayName\":\"Scout\",\"ReferenceName\":\"Actor_1AB1124E\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"1AB1124E\"}"
+        }
+    ]
+}

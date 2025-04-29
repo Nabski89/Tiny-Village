@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "12909331086bc3b48850e81a970be567",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "a787790f-f419-4203-8ba6-03d7e4133565",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 265.0,
+                    "y": 110.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"2d71cebc-8a60-4114-b910-4cc20cc76ac2\"}",
+            "PortData": [
+                "21ac1169-b806-413e-8f62-e48ba5162e6b"
+            ]
+        },
+        {
+            "GUID": "d3b877f9-cdcc-4f8d-b53a-94a1098a7512",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 403.0,
+                    "y": 110.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"\\\",\\\"PortGuidA\\\":\\\"acd0cce7-936c-4705-9aed-b1cb54b608f1\\\",\\\"PortGuidB\\\":\\\"47e61ded-d530-446f-ba47-954bbe5b159b\\\",\\\"PortGuidC\\\":\\\"1b8dbd2a-5b16-4c39-9f72-173366ff3b31\\\"}]\"}",
+            "PortData": [
+                "7fa9a0a2-90d3-418c-813a-b7eaa71ceb11",
+                "1bbeeeb8-2e85-4b22-ba8a-aa37009bb564",
+                "acd0cce7-936c-4705-9aed-b1cb54b608f1",
+                "47e61ded-d530-446f-ba47-954bbe5b159b",
+                "1b8dbd2a-5b16-4c39-9f72-173366ff3b31"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "d3b877f9-cdcc-4f8d-b53a-94a1098a7512",
+            "Output": "a787790f-f419-4203-8ba6-03d7e4133565",
+            "InputPort": "1bbeeeb8-2e85-4b22-ba8a-aa37009bb564",
+            "OutputPort": "21ac1169-b806-413e-8f62-e48ba5162e6b",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"2d71cebc-8a60-4114-b910-4cc20cc76ac2\",\"Type\":2,\"DisplayName\":\"Fighter\",\"ReferenceName\":\"Actor_69CBE89\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"69CBE89\"}"
+        }
+    ]
+}

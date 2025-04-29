@@ -1,0 +1,71 @@
+{
+    "AssetGuid": "4556cc8b8b6925840bc3e28978313ad2",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "ed5a74f2-9a4b-49bd-8474-2ad0dcb9c8d2",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 418.0,
+                    "y": 150.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"If I had eyebrows I would be waggling them right now.\\\",\\\"PortGuidA\\\":\\\"731281de-08e3-4e22-ba1c-5fc1594f37be\\\",\\\"PortGuidB\\\":\\\"998a7eed-9c7f-4cc3-aaa6-5ba834cfbb1e\\\",\\\"PortGuidC\\\":\\\"abcc683e-cc2f-4ce3-bc4c-d42e7d03a278\\\"}]\"}",
+            "PortData": [
+                "200f1c1c-9007-4db4-8932-676efc432f94",
+                "faf3f190-591a-4f66-b0b6-92df322c89e6",
+                "731281de-08e3-4e22-ba1c-5fc1594f37be",
+                "998a7eed-9c7f-4cc3-aaa6-5ba834cfbb1e",
+                "abcc683e-cc2f-4ce3-bc4c-d42e7d03a278"
+            ]
+        },
+        {
+            "GUID": "a763bb5c-21f1-454f-96f9-b29a690fd5e1",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 267.0,
+                    "y": 134.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"00a07234-e0f1-4d44-b5ad-7829062c3b48\"}",
+            "PortData": [
+                "7880917f-5d0b-423c-a1f6-c7ae2ef89132"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "ed5a74f2-9a4b-49bd-8474-2ad0dcb9c8d2",
+            "Output": "a763bb5c-21f1-454f-96f9-b29a690fd5e1",
+            "InputPort": "faf3f190-591a-4f66-b0b6-92df322c89e6",
+            "OutputPort": "7880917f-5d0b-423c-a1f6-c7ae2ef89132",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.CheckProperty",
+            "Data": "{\"$type\":\"DialogueGraph.CheckProperty, DialogueGraph.Editor\",\"GUID\":\"d0b5bd4a-d687-4a11-aa90-9c893d2a227c\",\"Type\":1,\"DisplayName\":\"Check\",\"ReferenceName\":\"Check_85D461B2\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"85D461B2\"}"
+        },
+        {
+            "Type": "DialogueGraph.TriggerProperty",
+            "Data": "{\"$type\":\"DialogueGraph.TriggerProperty, DialogueGraph.Editor\",\"GUID\":\"c5eaf903-0870-439c-a984-a3b9a2545f66\",\"Type\":0,\"DisplayName\":\"Trigger\",\"ReferenceName\":\"Trigger_A5793704\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"A5793704\"}"
+        },
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"00a07234-e0f1-4d44-b5ad-7829062c3b48\",\"Type\":2,\"DisplayName\":\"Antler\",\"ReferenceName\":\"Actor_EEC3D1D6\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"EEC3D1D6\"}"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "dd42e956cd9829543aa98a32c8c3511a",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "81e39df4-41b4-4601-b496-58e12b424b5e",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 294.0,
+                    "y": 104.0,
+                    "width": 70.0,
+                    "height": 42.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"5ad2d415-3f5e-4130-bd31-37de423182aa\"}",
+            "PortData": [
+                "aef37444-7057-4bd2-a3f7-9925ced5a9e0"
+            ]
+        },
+        {
+            "GUID": "035a2bf2-6f80-44ea-8953-5eaa9b48da06",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 396.0,
+                    "y": 104.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"I'm feeling good about today.\\\",\\\"PortGuidA\\\":\\\"7ef93080-8049-4b7c-84d4-d04b905d90a3\\\",\\\"PortGuidB\\\":\\\"b3161ca5-a9f1-4bca-9e1c-a73372a3d7d2\\\",\\\"PortGuidC\\\":\\\"1f52b2b8-ed55-4e23-b330-65db19e35e44\\\"}]\"}",
+            "PortData": [
+                "39ce69f8-7229-45a5-98c2-569025579064",
+                "3d1a45f2-5af9-4834-bea1-a92dd8cd48d6",
+                "7ef93080-8049-4b7c-84d4-d04b905d90a3",
+                "b3161ca5-a9f1-4bca-9e1c-a73372a3d7d2",
+                "1f52b2b8-ed55-4e23-b330-65db19e35e44"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "035a2bf2-6f80-44ea-8953-5eaa9b48da06",
+            "Output": "81e39df4-41b4-4601-b496-58e12b424b5e",
+            "InputPort": "3d1a45f2-5af9-4834-bea1-a92dd8cd48d6",
+            "OutputPort": "aef37444-7057-4bd2-a3f7-9925ced5a9e0",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"5ad2d415-3f5e-4130-bd31-37de423182aa\",\"Type\":2,\"DisplayName\":\"Miner\",\"ReferenceName\":\"Actor_4FE345DA\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"4FE345DA\"}"
+        }
+    ]
+}

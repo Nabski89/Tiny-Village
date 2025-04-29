@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "aa8169e8a6bf0a745a9b3c58ab888c7a",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "dde5a030-9c35-46b1-8daf-863fff2b2036",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 407.0,
+                    "y": 189.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"caede99f-e4dc-4ac5-8bf0-74239a726472\"}",
+            "PortData": [
+                "8f28f3c5-1ec7-4952-a8b2-0f02065bea9f"
+            ]
+        },
+        {
+            "GUID": "0d8448f4-b936-4d6c-ac06-4aa7f4ed794f",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 524.0,
+                    "y": 141.0,
+                    "width": 145.0,
+                    "height": 96.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"If I can manage three more loads today we might still be on track to meet quota for the week.\\\",\\\"PortGuidA\\\":\\\"b69974a1-29af-45a5-a59e-0ab34d0c605e\\\",\\\"PortGuidB\\\":\\\"9c9d2f56-28a1-48f6-b9fd-4e0be499b46d\\\",\\\"PortGuidC\\\":\\\"416834e0-db4b-43b1-ae6f-88b5abc80eaa\\\"}]\"}",
+            "PortData": [
+                "1a1f3438-68ef-429d-90c3-f300679b78ad",
+                "00952d0c-3704-43dd-b09f-8d1618dab76f",
+                "b69974a1-29af-45a5-a59e-0ab34d0c605e",
+                "9c9d2f56-28a1-48f6-b9fd-4e0be499b46d",
+                "416834e0-db4b-43b1-ae6f-88b5abc80eaa"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "0d8448f4-b936-4d6c-ac06-4aa7f4ed794f",
+            "Output": "dde5a030-9c35-46b1-8daf-863fff2b2036",
+            "InputPort": "00952d0c-3704-43dd-b09f-8d1618dab76f",
+            "OutputPort": "8f28f3c5-1ec7-4952-a8b2-0f02065bea9f",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"caede99f-e4dc-4ac5-8bf0-74239a726472\",\"Type\":2,\"DisplayName\":\"Bulky\",\"ReferenceName\":\"Actor_E622BD24\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"E622BD24\"}"
+        }
+    ]
+}

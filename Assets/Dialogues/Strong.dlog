@@ -1,0 +1,63 @@
+{
+    "AssetGuid": "10fb564dd3c55244391209afc504574e",
+    "IsBlackboardVisible": true,
+    "DialogueGraphVersion": "2.0.0",
+    "nodes": [
+        {
+            "GUID": "99e7ae1a-224f-4462-ac00-0351eb46243f",
+            "Type": "DialogueGraph.PropertyNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 439.0,
+                    "y": 242.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"propertyGuid\":\"912a7792-b32b-4e87-8963-a0621562971b\"}",
+            "PortData": [
+                "93c6cca1-79f4-4555-a3f1-ea9f0e3edf61"
+            ]
+        },
+        {
+            "GUID": "2b5292ec-c96b-42dd-9e9a-14df7bfcf6ac",
+            "Type": "DialogueGraph.NpcNode",
+            "DrawState": {
+                "Position": {
+                    "serializedVersion": "2",
+                    "x": 597.0,
+                    "y": 283.0,
+                    "width": 200.0,
+                    "height": 150.0
+                },
+                "Expanded": true
+            },
+            "NodeData": "{\"lines\":\"[{\\\"Line\\\":\\\"PUMP KIT\\\",\\\"PortGuidA\\\":\\\"68e57c36-7c77-4a22-81db-dd4d2ef524f2\\\",\\\"PortGuidB\\\":\\\"b64a8cae-2551-4186-aab1-4c10be23e7a5\\\",\\\"PortGuidC\\\":\\\"35acc648-7c63-45c3-8231-347da0aebef4\\\"}]\"}",
+            "PortData": [
+                "3806deb3-e99e-465e-8eb9-49032ace4b26",
+                "a75d4ba5-66cc-4226-a89b-ae07b2502f72",
+                "68e57c36-7c77-4a22-81db-dd4d2ef524f2",
+                "b64a8cae-2551-4186-aab1-4c10be23e7a5",
+                "35acc648-7c63-45c3-8231-347da0aebef4"
+            ]
+        }
+    ],
+    "edges": [
+        {
+            "Input": "2b5292ec-c96b-42dd-9e9a-14df7bfcf6ac",
+            "Output": "99e7ae1a-224f-4462-ac00-0351eb46243f",
+            "InputPort": "a75d4ba5-66cc-4226-a89b-ae07b2502f72",
+            "OutputPort": "93c6cca1-79f4-4555-a3f1-ea9f0e3edf61",
+            "InputCapacity": 0,
+            "OutputCapacity": 1
+        }
+    ],
+    "serializedProperties": [
+        {
+            "Type": "DialogueGraph.ActorProperty",
+            "Data": "{\"$type\":\"DialogueGraph.ActorProperty, DialogueGraph.Editor\",\"GUID\":\"912a7792-b32b-4e87-8963-a0621562971b\",\"Type\":2,\"DisplayName\":\"Strong\",\"ReferenceName\":\"Actor_D8591800\",\"OverrideReferenceName\":null,\"Hidden\":false,\"ShortGuid\":\"D8591800\"}"
+        }
+    ]
+}
